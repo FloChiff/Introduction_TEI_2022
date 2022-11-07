@@ -7,7 +7,7 @@ Ce cours se déroule en trois temps :
 2. Créer son édition scientifique numérique
 3. Exploiter son édition numérique
 
-Dans le cadre de la deuxième partie du cours, les participants devront procéder à une application pratique de ce qui leur aura été enseigné sur la mise en place d'un arbre XML TEI. Pour ce faire, des documents de travail leur seront fournis, afin d'apprendre à encoder de manière homogénéiser. Cependant, si certains participants ont un texte qu'ils aimeraient apprendre à encoder spécifiquement, ils pourront s'en munir et nous pourrons travailler dessus en fonction du temps restant sur les journées.
+Dans le cadre de la deuxième partie du cours, les participants devront procéder à une application pratique de ce qui leur aura été enseigné sur la mise en place d'un arbre XML TEI. Pour ce faire, des documents de travail leur seront fournis, afin d'apprendre à encoder de manière homogénéiser. Cependant, si certains participants ont un texte qu'ils aimeraient apprendre à encoder spécifiquement, ils pourront s'en munir et s'il nous reste du temps, nous pourrons travailler dessus.
 
 ___
 
