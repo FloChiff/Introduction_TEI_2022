@@ -3,7 +3,7 @@
 Ce repository regroupe les documents liés à la formation d'introduction à la TEI, dispensée à l'URFIST de Rennes.
 
 Ce cours se déroule en trois temps :
-1. Introduction à l'XML-TEI
+1. Introduction à la XML-TEI
 2. Créer son édition scientifique numérique
 3. Exploiter son édition numérique
 
@@ -13,10 +13,10 @@ ___
 
 ## Programme
 
-I - Introduction à l'XML-TEI : pourquoi encoder ses corpus ?  
-A - Historique de la création de l'XML-TEI  
-B - Qu'est ce que le format XML ?  
-C - Qu'est ce que la TEI ?  
+I - Introduction à la XML-TEI : pourquoi encoder ses corpus ?  
+A - Historique de la création de la XML-TEI  
+B - Qu'est-ce que le format XML ?  
+C - Qu'est-ce que la TEI ?  
 
 II - Créer son édition scientifique numérique  
 A - La TEI au service de son édition  
