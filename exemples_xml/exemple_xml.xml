@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texte>
+	<titre>Présentation de personnes</titre>
+	<personne n="1" type="homme" profession="professeur">
+		<nom>Martin</nom>
+		<prenom>Jean</prenom>
+	</personne>
+	<personne n="2" type="femme" profession="chirurgien">
+		<nom>Martin</nom>
+		<prenom>Marie</prenom>
+	</personne>
+</texte>
+

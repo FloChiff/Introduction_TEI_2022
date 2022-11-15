@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exemples d'utilisation d'éléments en XML-TEI</title>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>
+                        <forename>Floriane</forename>
+                        <surname>Chiffoleau</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>L'encodage de ce document s'est fait dans le cadre d'une formation d'introduction à la TEI.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation when="2021"/>
+            <langUsage>
+                <language ident="fr"/>
+                <!-- 
+                <language ident="fr" usage="100">Français</language>
+                Le contenu de la balise n'est pas nécessaire puisque l'identifiant est assez claire et l'attribut @usage n'a pas à être mis s'il est de 100%
+                -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2021-04-02" who="#floriane.chiffoleau">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="exemple">
+                <div type="novel">
+                    <head>Exemple de roman</head>
+                    <div type="book" n="3">
+                        <div type="chapter" n="9">
+                            <p>Elisabeth avoit arrangé dans sa tête<lb/> que Mr. Darcy lui amèneroit sa sœur le<lb/> lendemain de son arrivée à
+                                Pemberley ,<lb/> et en conséquence elle étoit bien déci-<lb break="no"/>dée à ne pas s’éloigner de l’auberge de<lb/>
+                                toute la matinée; mais elle avoit mal<lb/> calculé, car il l’amena à Lambton le<lb/> jour même. Elisabeth et sa tante
+                                qui<lb/> s’étoient promenées près de là avec quel-<lb break="no"/>ques-uns de leurs nouveaux amis, ren-<lb break="no"
+                                />troient à l’auberge pour faire leur toi-<lb break="no"/>lette et aller dîner, lorsque le bruit d’un<lb/> équipage
+                                les attira vers la fenêtre, et elles<lb/> virent un monsieur et une dame dans un<lb/> Carriole qui s’arrêta à leur
+                                porte. Elisabeth,<lb/> reconnoissant la livrée, ne causa pas à son<lb/> oncle et à sa tante une légère surprise,<pb
+                                    n="113"/><note type="foliation" place="top(right)">113</note> en leur annonçant la visite qu’elle atten-<lb
+                                    break="no"/>doit. Jusqu’alors ils n’avoient eu aucun<lb/> soupçon de ce qui se passoit ; mais com-<lb break="no"
+                                />ment expliquer l’embarras d’Elisabeth, et<lb/> toutes les attentions de Darcy? Il falloit<lb/> qu’il eût du penchant
+                                pour leur nièce.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="poem">
+                    <head>Exemple de poèmes</head>
+                    <lg type="sonnet">
+                        <lg type="quatrain">
+                            <l>Vers 1</l>
+                            <l>Vers 2</l>
+                            <l>Vers 3</l>
+                            <l>Vers 4</l>
+                        </lg>
+                        <lg type="quatrain">
+                            <l>Vers 1</l>
+                            <l>Vers 2</l>
+                            <l>Vers 3</l>
+                            <l>Vers 4</l>
+                        </lg>
+                        <lg type="tercet">
+                            <l>Vers 1</l>
+                            <l>Vers 2</l>
+                            <l>Vers 3</l>
+                        </lg>
+                        <lg type="tercet">
+                            <l>Vers 1</l>
+                            <l>Vers 2</l>
+                            <l>Vers 3</l>
+                        </lg>
+                    </lg>
+                </div>
+                <div type="list">
+                    <head>Exemple de liste</head>
+                    <list>
+                        <head>Liste d'objets</head>
+                        <item>Une table</item>
+                        <item>Une chaise</item>
+                        <item>Un lit</item>
+                    </list>
+                </div>
+                <div type="table">
+                    <head>Exemple de tableau</head>
+                    <table>
+                        <head>Informations personnelles</head>
+                        <row>
+                            <cell/>
+                            <cell>Genre</cell>
+                            <cell>Profession</cell>
+                        </row>
+                        <row>
+                            <cell>Jean Martin</cell>
+                            <cell>Homme</cell>
+                            <cell>Professeur</cell>
+                        </row>
+                        <row>
+                            <cell>Marie Martin</cell>
+                            <cell>Femme</cell>
+                            <cell>Chirurgien</cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="figure">
+                    <head>Exemple de figure</head>
+                    <figure>
+                        <graphic url="images/inr_logo_rouge.jpg" width="2cm"/>
+                        <head>Logo de l'Inria</head>
+                        <figDesc>L'image montre le logo de l'Inria, écrit en rouge et en écriture cursive.</figDesc>
+                    </figure>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
