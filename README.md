@@ -26,8 +26,19 @@ C - Travaux pratiques : définir un premier balisage pour son corpus
 III - Exploiter son édition numérique  
 A - Fouiller dans ses données (XPath et XQuery)  
 B - Transformer ses données (XSLT)  
-C - Publier son corpus (TeiPublisher)  
+C - Publier son corpus (TEI Publisher)  
 
+___
+
+## Hiérarchie du dépôt du cours
+
+* [exemples_xml](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/exemples_xml) --> contient les exemples présentés dans les parties 1 et 2 des slides
+* [supports_de_cours](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/supports_de_cours) --> contient les slides du cours
+* [texte_de_travail](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail)
+  * [encodage](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/encodage) --> contient les fichiers du texte à utiliser pour travailler l'encodage en XML-TEI
+  * [teipublisher](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/teipublisher) --> contient les fichiers pour tester et en découvrir plus sur TEI Publisher
+  * [xslt](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/xslt) --> contient les fichiers pour tester et en découvrir plus sur le format XSLT
+  * [odd](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/odd) --> contient les fichiers pour tester l'ODD
 ___
 
 ## Outil d'encodage  
