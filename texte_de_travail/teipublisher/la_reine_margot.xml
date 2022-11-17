@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Reine Margot</title>
+                <title type="sub">oeuvres de Alexandre Dumas ; illustrations de Fred-Money ; gravées sur bois par Victor Dutertre</title>
+                <author> Dumas, Alexandre (1802-1870) </author>
+                <respStmt>
+                    <resp>Illustration</resp>
+                    <persName>Fred-Money</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Gravure</resp>
+                    <persName>Dutertre, Victor</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Louis Conard, libraire-éditeur</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date>1929</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <collection>Littérature et art</collection>
+                        <idno>8-Y2-67941</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="1" facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3413882c/f15/full/full/0/default.jpg"/>
+                <p><title rend="align(center)">I<lb/> FRATERNITÉ</title></p>
+                <p>En sauvant la vie de Charles, Henri avait fait plus que<lb/> sauver la vie d’un homme : il avait empêché trois<lb/> royaumes de
+                    changer de souverains.</p>
+                <p>En effet, Charles IX tué, le duc d’Anjou devenait roi de<lb/> France, et le duc d’Alençon, selon toute probabilité, deve-<lb
+                        break="no"/> nait roi de Pologne. Quant à la Navarre, comme M. le duc<lb/> d’Anjou était l’amant de madame de Condé, sa
+                    couronne eût<lb/> probablement payé au mari la complaisance de sa femme.</p>
+                <p>Or, dans tout ce grand bouleversement il n’arrivait rien de<lb/> bon pour Henri. Il changeait de maître, voilà tout ; et au lieu<lb/>
+                    <pb n="2" facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3413882c/f16/full/full/0/default.jpg"/>
+                    <note type="foliation">2</note> de Charles IX, qui le tolérait, il voyait monter au trône de<lb/> France le duc d’Anjou, qui,
+                    n’ayant avec sa mère Catherine<lb/> qu’un cœur et qu’une tête, avait juré sa mort et ne manque-<lb break="no"/> rait pas de tenir
+                    son serment.</p>
+                <p>Toutes ces idées s’étaient présentées à la fois à son esprit<lb/> quand le sanglier s’était élancé sur Charles IX, et nous
+                    avons<lb/> vu ce qui était résulté de cette réflexion rapide comme<lb/> l’éclair, qu’à la vie de Charles IX était attachée sa
+                    propre<lb/> vie.</p>
+                <p>Charles IX avait été sauvé par un dévouement dont il était<lb/> impossible au roi de comprendre le motif.</p>
+                <p>Mais Marguerite avait tout compris, et elle avait admiré ce<lb/> courage étrange de Henri qui, pareil à l’éclair, ne brillait
+                    que<lb/> dans l’orage.</p>
+                <p>Malheureusement ce n’était pas le tout que d’avoir échappé<lb/> au règne du duc d’Anjou, il fallait se faire roi soi-même. Il<lb/>
+                    fallait disputer la Navarre au duc d’Alençon et au prince de<lb/> Condé ; il fallait surtout quitter cette cour où l’on ne mar-<lb
+                        break="no"/> chait qu’entre deux précipices, et la quitter protégé par un<lb/> fils de France.</p>
+                <p>Henri, tout en revenant de Bondy, réfléchit profondément<lb/> à la situation. En arrivant au Louvre, son plan était fait.<lb/> Sans
+                    se débotter, tel qu’il était, tout poudreux et tout san-<lb break="no"/> glant encore, il se rendit chez le duc d’Alençon, qu’il
+                    trouva<lb/> fort agité en se promenant à grands pas dans sa chambre.</p>
+                <p>En l’apercevant, le prince fit un mouvement.</p>
+                <p>– Oui, lui dit Henri en lui prenant les deux mains, oui,<lb/> je comprends, mon bon frère, vous m’en voulez de ce que<lb/> le
+                    premier j’ai fait remarquer au roi que votre balle avait<lb/> frappé la jambe de son cheval, au lieu d’aller frapper le san-<lb
+                        break="no"/> glier, comme c’était votre intention. Mais que voulez-vous ?<lb/> je n’ai pu retenir une exclamation de surprise.
+                    D’ailleurs le<lb/> roi s’en fût toujours aperçu, n’est-ce pas ?</p>
+                <p>– Sans doute, sans doute, murmura d’Alençon. Mais je<lb/>
+                    <pb n="3" facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3413882c/f17/full/full/0/default.jpg"/>
+                    <note type="foliation">3</note> ne puis cependant attribuer qu’à mauvaise intention cette<lb/> espèce de dénonciation que vous
+                    avez faite, et qui, vous<lb/> l’avez vu, n’a pas eu un résultat moindre que de faire sus-<lb break="no"/> pecter à mon frère
+                    Charles mes intentions, et de jeter un<lb/> nuage entre nous. </p>
+                <p> – Nous reviendrons là-dessus tout à l’heure ; et quant à<lb/> la bonne ou à la mauvaise intention que j’ai à votre égard, je<lb/>
+                    viens exprès auprès de vous pour vous en faire juge.</p>
+                <p>– Bien! dit d’Alençon avec sa réserve ordinaire ; parlez,<lb/> Henri, je vous écoute.</p>
+                <p>– Quand j’aurai parlé, François, vous verrez bien quelles<lb/> sont mes intentions, car la confidence que je viens vous faire<lb/>
+                    exclut toute réserve et toute prudence; et quand je vous<lb/> l’aurai faite, d’un seul mot vous pourrez me perdre !</p>
+                <p>– Qu’est-ce donc ? dit François, qui commençait à se<lb/> troubler.</p>
+                <p>– Et cependant, continua Henri, j’ai hésité longtemps à<lb/> vous parler de la chose qui m’amène, surtout après la façon<lb/> dont
+                    vous avez fait la sourde oreille aujourd’hui.</p>
+                <p>– En vérité, dit François en pâlissant, je ne sais pas ce que<lb/> vous voulez dire, Henri.</p>
+                <p>– Mon frère, vos intérêts me sont trop chers pour que je<lb/> ne vous avertisse pas que les huguenots ont fait faire auprès<lb/> de
+                    moi des démarches.</p>
+                <p> – Des démarches! demanda d’Alençon, et quelles dé-<lb break="no"/> marches ?</p>
+                <p>– L’un d’eux, M. de Mouy de Saint-Phale, le fils du brave<lb/> de Mouy assassiné par Maurevel, vous savez...</p>
+                <p>– Oui.</p>
+                <p>– Eh bien, il est venu me trouver au risque de sa vie<lb/> pour me démontrer que j’étais en captivité.</p>
+                <p>– Ah ! vraiment ! et que lui avez-vous répondu ?</p>
+                <p>– Mon frère, vous savez que j’aime tendrement Charles,<lb/> qui m’a sauvé la vie, et que la reine mère a pour moi rem-<lb
+                        break="no"/>
+                    <pb n="4" facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3413882c/f18/full/full/0/default.jpg"/>
+                    <note type="foliation">4</note> placé ma mère. J’ai donc refusé toutes les offres qu’il venait<lb/> me faire.</p>
+                <p> – Et quelles étaient ces offres ?</p>
+                <p>– Les huguenots veulent reconstituer le trône de Navarre,<lb/> et comme en réalité ce trône m’appartient par héritage, ils<lb/> me
+                    l’offraient.</p>
+                <p>– Oui ; et M. de Mouy, au lieu de l’adhésion qu’il venait<lb/> solliciter, a reçu votre désistement ?</p>
+                <p>– Formel... par écrit même. Mais depuis..., continua<lb/> Henri.</p>
+                <p>– Vous vous êtes repenti, mon frère ? interrompit<lb/> d’Alençon.</p>
+                <p>– Non, j’ai cru m’apercevoir seulement que M. de Mouy,<lb/> mécontent de moi, reportait ailleurs ses visées.</p>
+                <p>– Et où cela ? demanda vivement François.</p>
+                <p>– Je n’en sais rien. Près du prince de Condé, peut-être.</p>
+                <p>– Oui, c’est probable, dit le duc.</p>
+                <p>– D’ailleurs, reprit Henri, j’ai moyen de connaître d’une<lb/> manière infaillible le chef qu’il s’est choisi.<lb/> François devint
+                    livide.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
