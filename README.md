@@ -36,9 +36,10 @@ ___
 * [supports_de_cours](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/supports_de_cours) --> contient les slides du cours
 * [texte_de_travail](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail)
   * [encodage](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/encodage) --> contient les fichiers du texte à utiliser pour travailler l'encodage en XML-TEI
-  * [teipublisher](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/teipublisher) --> contient les fichiers pour tester et en découvrir plus sur TEI Publisher
-  * [xslt](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/xslt) --> contient les fichiers pour tester et en découvrir plus sur le format XSLT
   * [odd](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/odd) --> contient les fichiers pour tester l'ODD
+  * [teipublisher](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/teipublisher) --> contient les fichiers pour tester et en découvrir plus sur TEI Publisher
+  * [xpath_xquery](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/xpath_xquery) --> contient les fichiers d'exemple et de travail pour le XPath et le XQuery
+  * [xslt](https://github.com/FloChiff/Introduction_TEI_2022/tree/main/texte_de_travail/xslt) --> contient les fichiers pour tester et en découvrir plus sur le format XSLT
 ___
 
 ## Outil d'encodage  
