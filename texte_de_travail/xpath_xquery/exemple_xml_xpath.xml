@@ -1,0 +1,34 @@
+<bibliography>
+	<book type="fantasy">
+		<title xml:lang="fr">Le Seigneur des Anneaux</title>
+		<title xml:lang="en">Lord of the Rings</title>
+		<author>JRR Tolkien</author>
+		<date>1954-1955</date>
+	</book>
+    <book type="fantasy">
+		<title xml:lang="fr">Le Monde de Narnia</title>
+		<title xml:lang="en">The Chronicles of Narnia</title>
+		<author>C. S. Lewis</author>
+		<date>1950-1956</date>
+	</book>
+    <book type="fantasy">
+		<title xml:lang="fr">Percy Jackson</title>
+		<title xml:lang="en">Percy Jackson and The Olympians</title>
+		<author>Rick Riordan</author>
+		<date>2005-2015</date>
+	</book>
+    <book type="polar">
+        <title xml:lang="fr">Mr Brown</title>
+        <title xml:lang="en">The Secret Adversary</title>
+        <author>Agatha Christie</author>
+        <date>1922</date>
+    </book>
+    <book type="polar">
+        <title xml:lang="fr">Le Crime de l'Orient-Express</title>
+        <title xml:lang="en">Murder on the Orient Express</title>
+        <author>Agatha Christie</author>
+        <date>1934</date>
+    </book>
+</bibliography>
+
+
