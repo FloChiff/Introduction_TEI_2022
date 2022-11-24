@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?teipublisher template="persons.html"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI>
+    <!-- Le namespace a été enlevé pour permettre d'utiliser les fichiers avec le XQuery -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
