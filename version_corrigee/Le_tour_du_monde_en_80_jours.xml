@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Tour du monde en quatre-vingts jours</title>
+                <title type="sub">par Jules Verne ; dessins par MM. de Neuville et L. Benett</title>
+                <author>Jules Verne (1828-1905)</author>
+                <respStmt>
+                    <resp>Illustrations</resp>
+                    <persName>Neuville, Alphonse de (1836-1885)</persName>
+                    <persName>Benett, Léon (1839-1916)</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bibliothèque d'éducation et de récréation</publisher>
+                <authority>J. Hetzel et cie</authority>
+                <pubPlace>18, rue Jacob, Paris</pubPlace>
+                <date>1873</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Les Voyages extraordinaires</title>
+                <respStmt>
+                    <resp>Edité par</resp>
+                    <persName>Pierre-Jules Hetzel</persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <collection>Réserve des livres rares</collection>
+                        <idno>RES M-Y2-771</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Monographie imprimée</objectType>
+                                </support>
+                                <extent>220 pages</extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="p0001">
+                        <persName>Phileas Fogg</persName>
+                        <nationality>American</nationality>
+                        <sex value="M"/>
+                        <occupation>rentier</occupation>
+                    </person>
+                    <person xml:id="p0002">
+                        <persName>Jean Passepartout</persName>
+                        <nationality>French</nationality>
+                        <sex value="M"/>
+                        <occupation>domestic worker</occupation>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="g0001">
+                        <orgName>Reform-Club</orgName>
+                        <desc>Grade I listed gentlemen's club in City of Westminster, United Kingdom</desc>
+                    </org>
+                </listOrg>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="l0001" type="museum">
+                        <placeName>Mme Tussaud</placeName>
+                        <country>Angleterre</country>
+                        <location>
+                            <geo>51.52279 -0.15517</geo>
+                        </location>
+                    </place>
+                    <place xml:id="l0002" type="state">
+                        <placeName>Royaume-Uni</placeName>
+                        <location>
+                            <geo>54.75844 -2.69531</geo>
+                        </location>
+                        <idno type="geonames">2635167</idno>
+                    </place>
+                    <place xml:id="l0003" type="city">
+                        <placeName>Londres</placeName>
+                        <country>Angleterre</country>
+                        <location>
+                            <geo>51.50853 -0.12574</geo>
+                        </location>
+                        <idno type="geonames">2643743</idno>
+                    </place>
+                    <place xml:id="l0004" type="city">
+                        <placeName>Paris</placeName>
+                        <country>France</country>
+                        <location>
+                            <geo>48.85341 2.3488</geo>
+                        </location>
+                        <idno type="geonames">2988507</idno>
+                    </place>
+                    <place xml:id="l0005" type="country">
+                        <placeName>Angleterre</placeName>
+                        <location>
+                            <geo>53 -2</geo>
+                        </location>
+                        <idno type="geonames">2649994</idno>
+                    </place>
+                    <place xml:id="l0006" type="house">
+                        <placeName>Maison de Saville-Row</placeName>
+                        <country>Angleterre</country>
+                        <location>
+                            <geo>51.5113 -0.140853</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L'encodage de ce document s'est fait dans le cadre d'une formation d'introduction à la TEI.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2022-11-15" who="#floriane.chiffoleau">Encoded the header and the body</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="book">
+                <!--
+                <div type="chapter" n="1">
+                        <pb n="1" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f9/full/full/0/native.jpg"/>
+                    <note type="foliation">- JULES VERNE -</note>
+                    <figure>
+                        <caption>Philéas Fogg</caption>
+                    </figure>
+                    <p><title rend="align(center)">I</title>
+                        <title rend="align(center)">Dans lequel Phileas Fogg et Passepartout s’acceptent réciproquement, <lb/> l’un comme maître,
+                            l’autre comme domestique</title></p>
+                    <p>En l’année 1872, la maison portant le numéro 7 de Saville-row, Burlington<lb/> Gardens – maison dans laquelle Sheridan mourut
+                        en 1814 –, était habitée<lb/> par Phileas Fogg, esq., l’un des membres les plus singuliers et les plus remar-<lb break="no"/>
+                        qués du Reform-Club de Londres, bien qu’il semblât prendre à tâche de ne<lb/> rien faire qui pût attirer l’attention.</p>
+                    <p>À l’un des plus grands orateurs qui honorent l’Angleterre, succédait donc<lb/> ce Phileas Fogg, personnage énigmatique, dont on
+                        ne savait rien, sinon qu<lb/>
+                        <lb/>
+                        <pb n="2" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f10/full/full/0/native.jpg"/>
+                        <note type="foliation">2 LE TOUR DU MONDE</note> c’était un fort galant homme et l’un des plus beaux gentlemen de la haute
+                            so-<lb break="no"/> ciété anglaise.</p>
+                    <p>On disait qu’il ressemblait à Byron – par la tête, car il était irréprocha-<lb break="no"/> ble quant aux pieds –, mais un
+                        Byron à moustaches et à favoris, un Byron<lb/> impassible, qui aurait vécu mille ans sans vieillir.</p>
+                    <p>Anglais, à coup sûr, Phileas Fogg n’était peut- être pas Londonner. On ne<lb/> l’avait jamais vu ni à la Bourse, ni à la
+                        Banque, ni dans aucun des comptoirs de<lb/> la Cité. Ni les bassins ni les docks de Londres n’avaient jamais reçu un
+                        navire<lb/> ayant pour armateur Phileas Fogg. Ce gentleman ne figurait dans aucun comité<lb/> d’administration. Son nom
+                        n’avait jamais retenti dans un collège d’avocats, ni<lb/> au Temple, ni à Lincoln’s-inn, ni à Gray’s-inn. Jamais il ne plaida
+                        ni à la Cour du<lb/> chancelier, ni au Banc de la Reine, ni à l’Échiquier ni en Cour ecclésiastique.<lb/> Il n’était ni
+                        industriel, ni négociant, ni marchand, ni agriculteur. Il ne faisait<lb/> partie ni de l’Institution royale de la
+                        Grande-Bretagne, ni de l’Institution de<lb/> Londres, ni de l’Institution des Artisans, ni de l’Institution Russell, ni de
+                            l’Insti-<lb break="no"/> tution littéraire de l’Ouest, ni de l’Institution du Droit, ni de cette Institution des<lb/> Arts
+                        et des Sciences réunis, qui est placée sous le patronage direct de Sa Gra-<lb break="no"/> cieuse Majesté. Il n’appartenait
+                        enfin à aucune des nombreuses sociétés qui<lb/> pullulent dans la capitale de l’Angleterre, depuis la Société de l’Armonica
+                        jusqu’à<lb/> la Société entomologique, fondée principalement dans le but de détruire les insec-<lb break="no"/> tes
+                        nuisibles.</p>
+                    <p>Phileas Fogg était membre du Reform-Club, et voilà tout<lb/> À qui s’étonnerait de ce qu’un gentleman aussi mystérieux comptât
+                        parmi<lb/> les membres de cette honorable association, on répondra qu’il passa sur la re-<lb break="no"/> commandation de MM.
+                        Baring frères, chez lesquels il avait un crédit ouvert. De<lb/> là une certaine « surface », due à ce que ses chèques étaient
+                        régulièrement<lb/> payés à vue par le débit de son compte courant invariablement créditeur<lb/> Ce Phileas Fogg était-il riche
+                        ? Incontestablement. Mais comment il avait fait<lb/> fortune, c’est ce que les mieux informés ne pouvaient dire, et Mr. Fogg
+                        était le<lb/> dernier auquel il convînt de s’adresser pour l’apprendre. En tout cas, il n’était<lb/> prodigue de rien, mais
+                        non avare, car partout où il manquait un appoint pour<lb/> une chose noble, utile ou généreuse, il l’apportait silencieusement
+                        et même<lb/> anonymement.</p>
+                    <p>En somme, rien de moins communicatif que ce gentleman. Il parlait aussi<lb/> peu que possible, et semblait d’autant plus
+                        mystérieux qu’il était silencieux.<lb/> Cependant sa vie était à jour, mais ce qu’il faisait était si mathématiquement<lb/>
+                        toujours la même chose, que l’imagination, mécontente, cherchait au-delà.</p>
+                    <lb/>
+                    <pb n="3" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f11/full/full/0/native.jpg"/>
+                    <note type="foliation">EN QUATRE-VINGTS JOURS. 3</note>
+                    <p>Avait-il voyagé ? C’était probable, car personne ne possédait mieux que lui<lb/> la carte du monde. Il n’était endroit si
+                        reculé dont il ne parût avoir une con-<lb break="no"/> naissance spéciale. Quelquefois, mais en peu de mots, brefs et clairs,
+                        il redressait<lb/> les mille propos qui circulaient dans le club au sujet des voyageurs perdus ou<lb/> égarés ; il indiquait
+                        les vraies probabilités, et ses paroles s’étaient trouvées sou-<lb break="no"/> vent comme inspirées par une seconde vue, tant
+                        l’événement finissait toujours<lb/> par les justifier. C’était un homme qui avait dû voyager partout, – en esprit, tout<lb/>
+                        au moins.</p>
+                    <p>Ce qui était certain toutefois, c’est que, depuis de longues années, Phileas<lb/> Fogg n’avait pas quitté Londres. Ceux qui
+                        avaient l’honneur de le connaître un<lb/> peu plus que les autres attestaient que – si ce n’est sur ce chemin direct
+                        qu’il<lb/> parcourait chaque jour pour venir de sa maison au club – personne ne pouvait<lb/> prétendre l’avoir jamais vu
+                        ailleurs. Son seul passe-temps était de lire les jour-<lb break="no"/> naux et de jouer au whist. À ce jeu du silence, si bien
+                        approprié à sa nature, il<lb/> gagnait souvent, mais ses gains n’entraient jamais dans sa bourse et figuraient<lb/> pour une
+                        somme importante à son budget de charité. D’ailleurs, il faut le<lb/> remarquer, Mr. Fogg jouait évidemment pour jouer, non
+                        pour gagner. Le jeu<lb/> était pour lui un combat, une lutte contre une difficulté, mais une lutte sans<lb/> mouvement, sans
+                        déplacement, sans fatigue, et cela allait à son caractère.</p>
+                    <p>On ne connaissait à Phileas Fogg ni femme ni enfants, – ce qui peut arriver<lb/> aux gens les plus honnêtes, – ni parents ni
+                        amis, – ce qui est plus rare en<lb/> vérité. Phileas Fogg vivait seul dans sa maison de Saville-row, où personne ne<lb/>
+                        pénétrait. De son intérieur, jamais il n’était question. Un seul domestique suf-<lb break="no"/> fisait à le servir.
+                        Déjeunant, dînant au club à des heures chronométriquement<lb/> déterminées, dans la même salle, à la même table, ne traitant
+                        point ses collè-<lb break="no"/> gues, n’invitant aucun étranger, il ne rentrait chez lui que pour se coucher, à<lb/> minuit
+                        précis, sans jamais user de ces chambres confortables que le Reform-<lb break="no"/> Club tient à la disposition des membres
+                        du cercle. Sur vingt- quatre heures, il<lb/> en passait dix à son domicile, soit qu’il dormît, soit qu’il s’occupât de sa
+                        toilette.<lb/> S’il se promenait, c’était invariablement, d’un pas égal, dans la salle d’entrée<lb/> parquetée en marqueterie,
+                        ou sur la galerie circulaire, au- dessus de laquelle<lb/> s’arrondit un dôme à vitraux bleus, que supportent vingt colonnes
+                        ioniques en<lb/> porphyre rouge. S’il dînait ou déjeunait, c’étaient les cuisines, le garde-manger,<lb/> l’office, la
+                        poissonnerie, la laiterie du club, qui fournissaient à sa table leurs<lb/> succulentes réserves ; c’étaient les domestiques du
+                        club, graves personnages<lb/> en habit noir, chaussés de souliers à semelles de molleton, qui le servaient dans<lb/> une
+                        porcelaine spéciale et sur un admirable linge en toile de Saxe ; c’étaient les<lb/>
+                        <lb/>
+                        <pb n="4" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f12/full/full/0/native.jpg"/>
+                        <note type="foliation">4 LE TOUR DU MONDE</note> cristaux à moule perdu du club qui contenaient son sherry, son porto ou
+                        son<lb/> claret mélangé de cannelle, de capillaire et de cinnamome ; c’était enfin la glace<lb/> du club – glace venue à
+                        grands frais des lacs d’Amérique – qui entretenait<lb/> ses boissons dans un satisfaisant état de fraîcheur.</p>
+                    <p>Si vivre dans ces conditions, c’est être un excentrique, il faut convenir que<lb/> l’excentricité a du bon !</p>
+                    <p>La maison de Saville-row, sans être somptueuse, se recommandait par un<lb/> extrême confort. D’ailleurs, avec les habitudes
+                        invariables du locataire, le ser-<lb break="no"/> vice s’y réduisait à peu. Toutefois, Phileas Fogg exigeait de son unique
+                            domes-<lb break="no"/> tique une ponctualité, une régularité extraordinaires. Ce jour-là même, 2 octo-<lb break="no"/>
+                        bre, Phileas Fogg avait donné son congé à James Forster – ce garçon s’étant<lb/> rendu coupable de lui avoir apporté pour sa
+                        barbe de l’eau à quatre-vingt-quatre<lb/> degrés Fahrenheit au lieu de quatre-vingt-six –, et il attendait son
+                        successeur,<lb/> qui devait se présenter entre onze heures et onze heures et demie.</p>
+                    <p>Phileas Fogg, carrément assis dans son fauteuil, les deux pieds rapprochés<lb/> comme ceux d’un soldat à la parade, les mains
+                        appuyées sur les genoux, le<lb/> corps droit, la tête haute, regardait marcher l’aiguille de la pendule, – appareil<lb/>
+                        compliqué qui indiquait les heures, les minutes, les secondes, les jours, les<lb/> quantièmes et l’année. À onze heures et
+                        demie sonnantes, Mr. Fogg devait, sui-<lb break="no"/>vant sa quotidienne habitude, quitter la maison et se rendre au
+                        Reform-Club<lb/> En ce moment, on frappa à la porte du petit salon dans lequel se tenait<lb/> Phileas Fogg.</p>
+                    <p>James Forster, le congédié, apparut.</p>
+                    <p>« Le nouveau domestique », dit-il.</p>
+                    <p>Un garçon âgé d’une trentaine d’années se montra et salua.</p>
+                    <p>« Vous êtes Français et vous vous nommez John ? », lui demanda Phileas Fogg.</p>
+                    <p>– Jean, n’en déplaise à monsieur, répondit le nouveau venu, Jean Passepar-<lb break="no"/> tout, un surnom qui m’est resté, et
+                        que justifiait mon aptitude naturelle à me<lb/> tirer d’affaire. Je crois être un honnête garçon, monsieur, mais, pour être
+                        franc,<lb/> j’ai fait plusieurs métiers. J’ai été chanteur ambulant, écuyer dans un cirque,<lb/> faisant de la voltige comme
+                        Léotard, et dansant sur la corde comme Blondin ;<lb/> puis je suis devenu professeur de gymnastique, afin de rendre mes
+                        talents plus<lb/> utiles, et, en dernier lieu, j’étais sergent de pompiers, à Paris. J’ai même dans<lb/> mon dossier des
+                        incendies remarquables. Mais voilà cinq ans que j’ai quitté la<lb/> France et que, voulant goûter de la vie de famille, je
+                        suis valet de chambre en<lb/> Angleterre. Or, me trouvant sans place et ayant appris que monsieur Phileas<lb/> Fogg était
+                        l’homme le plus exact et le plus sédentaire du Royaume-Uni, je me<lb/>
+                        <pb n="5" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f13/full/full/0/native.jpg"/>
+                        <note type="foliation">EN QUATRE-VINGTS JOURS 5</note> suis présenté chez monsieur avec l’espérance d’y vivre tranquille et
+                        d’oublier<lb/> jusqu’à ce nom de Passepartout...</p>
+                    <p>– <persName ref="#p0002">Passepartout</persName> me convient, répondit le gentleman. Vous m’êtes recom-<lb break="no"/> mandé.
+                        J’ai de bons renseignements sur votre compte. Vous connaissez mes<lb/> conditions ?</p>
+                    <p>– Oui, monsieur.</p>
+                    <p>– Bien. Quelle heure avez-vous ?</p>
+                    <p>– Onze heures vingt-deux, répondit <persName ref="#p0002">Passepartout</persName>, en tirant des profondeurs<lb/> de son
+                        gousset une énorme montre d’argent.</p>
+                    <p> – Vous retardez, dit <persName ref="#p0001">Mr. Fogg</persName>.</p>
+                    <p> – Que monsieur me pardonne, mais c’est impossible.</p>
+                    <p> – Vous retardez de quatre minutes. N’importe. Il suffit de constater l’écart. </p>
+                    <p> Donc, à partir de ce moment, onze heures vingt-neuf du matin, ce mercredi<lb/> 2 octobre 1872, vous êtes à mon service. »</p>
+                    <p>Cela dit, <persName ref="#p0001">Phileas Fogg</persName> se leva, prit son chapeau de la main gauche, le plaça<lb/> sur sa tête
+                        avec un mouvement d’automate et disparut sans ajouter une<lb/> parole.</p>
+                    <p><persName ref="#p0002">Passepartout</persName> entendit la porte de la rue se fermer une première fois : c’était<lb/> son
+                        nouveau maître qui sortait ; puis une seconde fois : c’était son prédécesseur,<lb/> James Forster, qui s’en allait à son
+                        tour.</p>
+                    <p><persName ref="#p0002">Passepartout</persName> demeura seul dans la <placeName ref="#l0006">maison de
+                        Saville-row</placeName>.</p>
+                </div>-->
+                <div type="chapter" n="2">
+                    <p><title rend="align(center)">II</title>
+                        <title rend="align(center)">Où <persName ref="#p0002">Passepartout</persName> est convaincu qu'il a enfin trouvé son
+                            idéal</title></p>
+                    <lb/>
+                    <p>«Sur ma foi, se dit <persName ref="#p0002">Passepartout</persName>, un peu ahuri tout d’abord, j’ai connu chez<lb/>
+                        <placeName ref="#l0001">Mme Tussaud</placeName> des bonshommes aussi vivants que mon nouveau maître ! » </p>
+                    <p>Il convient de dire ici que les « bonshommes » de <placeName ref="#l0001">Mme Tussaud</placeName> sont des<lb/> figures de
+                        cire, fort visitées à <placeName ref="#l0003">Londres</placeName>, et auxquelles il ne manque vraiment<lb/> que la parole. </p>
+                    <p>Pendant les quelques instants qu’il venait d’entrevoir <persName ref="#p0001">Phileas Fogg</persName>, <persName ref="#p0002"
+                                >Passe-<lb break="no"/>partout</persName> avait rapidement, mais soigneusement examiné son futur maître. C’était<lb/>
+                        <lb/>
+                        <pb n="6" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f14/full/full/0/native.jpg"/>
+                        <note type="foliation">6 LE TOUR DU MONDE</note> un homme qui pouvait avoir quarante ans, de figure noble et belle, haut
+                        de<lb/> taille, que ne déparait pas un léger embonpoint, blond de cheveux et de favoris,<lb/> front uni sans apparences de
+                        rides aux tempes, figure plutôt pâle que colorée,<lb/> dents magnifiques. Il paraissait posséder au plus haut degré ce que les
+                            phy-<lb break="no"/> sionomistes appellent « le repos dans l’action », faculté commune à tous ceux<lb/> qui font plus de
+                        besogne que de bruit. Calme, flegmatique, l’œil pur, la paupière<lb/> immobile, c’était le type achevé de ces Anglais à
+                        sang-froid qui se rencon-<lb break="no"/> trent assez fréquemment dans le <placeName ref="#l0002">Royaume-Uni</placeName>, et
+                        dont Angelica Kauffmann a<lb/> merveilleusement rendu sous son pinceau l’attitude un peu académique. Vu<lb/> dans les divers
+                        actes de son existence, ce gentleman donnait l’idée d’un être<lb/> bien équilibré dans toutes ses parties, justement pondéré,
+                        aussi parfait qu’un<lb/> chronomètre de Leroy ou de Earnshaw. C’est qu’en effet, <persName ref="#p0001">Phileas
+                            Fogg</persName> était<lb/> l’exactitude personnifiée, ce qui se voyait clairement à « l’expression de ses<lb/> pieds et de
+                        ses mains », car chez l’homme, aussi bien que chez les animaux, les<lb/> membres eux-mêmes sont des organes expressifs des
+                        passions. </p>
+                    <p><persName ref="#p0001">Phileas Fogg</persName> était de ces gens mathématiquement exacts, qui, jamais pressés<lb/> et toujours
+                        prêts, sont économes de leurs pas et de leurs mouvements. Il<lb/> ne faisait pas une enjambée de trop, allant toujours par le
+                        plus court.<lb/> Il ne perdait pas un regard au plafond. Il ne se permettait aucun geste superflu.<lb/> On ne l’avait jamais
+                        vu ému ni troublé. C’était l’homme le moins hâté du<lb/> monde, mais il arrivait toujours à temps. Toutefois, on comprendra
+                        qu’il vécût<lb/> seul et pour ainsi dire en dehors de toute relation sociale. Il savait que dans<lb/> la vie il faut faire la
+                        part des frottements, et comme les frottements retardent,<lb/> il ne se frottait à personne. </p>
+                    <p>Quant à <persName ref="#p0002">Jean, dit Passepartout</persName>, un vrai Parisien de <placeName ref="#l0004"
+                        >Paris</placeName>, depuis cinq ans<lb/> qu’il habitait l’<placeName ref="#l0005">Angleterre</placeName> et y faisait à
+                            <placeName ref="#l0003">Londres</placeName> le métier de valet de chambre,<lb/> il avait cherché vainement un maître
+                        auquel il pût s’attacher. </p>
+                    <p><persName ref="#p0002">Passepartout</persName> n’était point un de ces Frontins ou Mascarilles qui, les épaules<lb/> hautes, le
+                        nez au vent, le regard assuré, l’œil sec, ne sont que d’impudents<lb/> drôles. Non. <persName ref="#p0002"
+                            >Passepartout</persName> était un brave garçon, de physionomie aimable,<lb/> aux lèvres un peu saillantes, toujours prêtes
+                        à goûter ou à caresser, un être<lb/> doux et serviable, avec une de ces bonnes têtes rondes que l’on aime à voir sur<lb/> les
+                        épaules d’un ami. Il avait les yeux bleus, le teint animé, la figure assez<lb/> grasse pour qu’il pût lui-même voir les
+                        pommettes de ses joues, la poitrine<lb/> large, la taille forte, une musculature vigoureuse, et il possédait une force her-<lb
+                            break="no"/> culéenne que les exercices de sa jeunesse avaient admirablement développée.<lb/> Ses cheveux bruns étaient un
+                        peu rageurs. Si les sculpteurs de l’Antiquité con-<lb break="no"/>
+                        <lb/>
+                        <pb n="7" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f15/full/full/0/native.jpg"/>
+                        <note type="foliation">EN QUATRE-VINGTS JOURS 7 </note> naissaient dix-huit façons d’arranger la chevelure de Minerve,
+                            <persName ref="#p0002">Passepartout</persName><lb/> n’en connaissait qu’une pour disposer la sienne : trois coups de
+                        démêloir, et<lb/> il était coiffé. </p>
+                    <p>De dire si le caractère expansif de ce garçon s’accorderait avec celui de<lb/>
+                        <persName ref="#p0001">Phileas Fogg</persName>, c’est ce que la prudence la plus élémentaire ne permet pas.<lb/>
+                        <persName ref="#p0002">Passepartout</persName> serait-il ce domestique foncièrement exact qu’il fallait à son maître ?<lb/> On
+                        ne le verrait qu’à l’user. Après avoir eu, on le sait, une jeunesse assez vaga-<lb break="no"/> bonde, il aspirait au repos.
+                        Ayant entendu vanter le méthodisme anglais et la<lb/> froideur proverbiale des gentlemen, il vint chercher fortune en
+                            <placeName ref="#l0005">Angleterre</placeName>. Mais,<lb/> jusqu’alors, le sort l’avait mal servi. Il n’avait pu prendre
+                        racine nulle part. Il<lb/> avait fait dix maisons. Dans toutes, on était fantasque, inégal, coureur d’aven-<lb break="no"/>
+                        tures ou coureur de pays, – ce qui ne pouvait plus convenir à <persName ref="#p0002">Passepartout</persName>.<lb/> Son dernier
+                        maître, le jeune Lord Longsferry, membre du Parlement, après<lb/> avoir passé ses nuits dans les « oysters-rooms »
+                        d’Hay-Market, rentrait trop sou-<lb break="no"/> vent au logis sur les épaules des policemen. <persName ref="#p0002"
+                            >Passepartout</persName>, voulant avant tout<lb/> pouvoir respecter son maître, risqua quelques respectueuses observations
+                        qui<lb/> furent mal reçues, et il rompit. Il apprit, sur les entrefaites, que <persName ref="#p0001">Phileas
+                        Fogg</persName>,<lb/> esq., cherchait un domestique. Il prit des renseignements sur ce gentleman.<lb/> Un personnage dont
+                        l’existence était si régulière, qui ne découchait pas, qui<lb/> ne voyageait pas, qui ne s’absentait jamais, pas même un jour,
+                        ne pouvait<lb/> que lui convenir. Il se présenta et fut admis dans les circonstances que<lb/> l’on sait. </p>
+                    <p><persName ref="#p0002">Passepartout</persName> – onze heures et demie étant sonnées – se trouvait donc seul<lb/> dans la
+                            <placeName ref="#l0006">maison de Saville-row</placeName>. Aussitôt il en commença l’inspection. Il la par-<lb break="no"
+                        /> courut de la cave au grenier. Cette maison propre, rangée, sévère, puritaine,<lb/> bien organisée pour le service, lui
+                        plut. Elle lui fit l’effet d’une belle coquille<lb/> de colimaçon, mais d’une coquille éclairée et chauffée au gaz, car
+                            l’hydro-<lb break="no"/> gène carburé y suffisait à tous les besoins de lumière et de chaleur. <persName ref="#l0002"
+                                >Passe-<lb break="no"/>partout</persName> trouva sans peine, au second étage, la chambre qui lui était destinée.<lb/>
+                        Elle lui convint. Des timbres électriques et des tuyaux acoustiques la mettaient<lb/> en communication avec les appartements
+                        de l’entresol et du premier étage. Sur<lb/> la cheminée, une pendule électrique correspondait avec la pendule de la cham-<lb
+                            break="no"/> bre à coucher de <persName ref="#p0001">Phileas Fogg</persName>, et les deux appareils battaient au même
+                        instant,<lb/> la même seconde. </p>
+                    <p>« Cela me va, cela me va ! » se dit <persName ref="#p0002">Passepartout</persName>. </p>
+                    <p>Il remarqua aussi, dans sa chambre, une notice affichée au-dessus de la pen-<lb break="no"/> dule. C’était le programme du
+                        service quotidien. Il comprenait – depuis huit<lb/>
+                        <lb/>
+                        <pb n="8" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f16/full/full/0/native.jpg"/>
+                        <note type="foliation">8 LE TOUR DU MONDE</note>
+                        <figure>
+                            <caption><persName ref="#p0002">Jean Passepartout</persName></caption>
+                        </figure> heures du matin, heure réglementaire à laquelle se levait <persName ref="#p0001">Phileas Fogg</persName>,<lb/>
+                        jusqu’à onze heures et demie, heure à laquelle il quittait sa maison pour aller<lb/> déjeuner au <orgName ref="#g0001"
+                            >Reform-Club</orgName> – tous les détails du service, le thé et les rôties<lb/> de huit heures vingt-trois, l’eau pour la
+                        barbe de neuf heures trente-sept, la<lb/> coiffure de dix heures moins vingt, etc. Puis de onze heures et demie du matin<lb/>
+                        à minuit – heure à laquelle se couchait le méthodique gentleman –, tout était<lb/> noté, prévu, régularisé. <persName
+                            ref="#p0002">Passepartout</persName> se fit une joie de méditer ce programme<lb/> et d’en graver les divers articles dans
+                        son esprit. </p>
+                    <p>Quant à la garde-robe de monsieur, elle était fort bien montée et mer-<lb break="no"/> veilleusement comprise. Chaque pantalon,
+                        habit ou gilet portait un numéro<lb/>
+                        <lb/>
+                        <pb n="9" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f17/full/full/0/native.jpg"/>
+                        <note type="foliation">EN QUATRE-VINGTS JOURS 9 </note>
+                        <figure>
+                            <caption>Et bien oui, <persName ref="#p0001">Monsieur Fogg</persName>, je parie 4,000 livres! (p.14)</caption>
+                        </figure> d’ordre reproduit sur un registre d’entrée et de sortie, indiquant la date à<lb/> laquelle, suivant la saison, ces
+                        vêtements devaient être tour à tour portés.<lb/> Même réglementation pour les chaussures. </p>
+                    <p>En somme, dans cette <placeName ref="#l0006">maison de Saville-row</placeName> qui devait être le temple du<lb/> désordre à
+                        l’époque de l’illustre mais dissipé Sheridan –, ameublement confor-<lb break="no"/> table, annonçant une belle aisance. Pas de
+                        bibliothèque, pas de livres, qui<lb/> eussent été sans utilité pour <persName ref="#p0001">Mr. Fogg</persName>, puisque le
+                            <orgName ref="#g0001">Reform-Club</orgName> mettait à<lb/> sa disposition deux bibliothèques, l’une consacrée aux lettres,
+                        l’autre au droit<lb/> et à la politique. Dans la chambre à coucher, un coffre-fort de moyenne gran-<lb break="no"/> deur, que
+                        sa construction défendait aussi bien de l’incendie que du vol. Point<lb/>
+                        <lb/>
+                        <pb n="10" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8600244d/f18/full/full/0/native.jpg"/>
+                        <note type="foliation">10 LE TOUR DU MONDE</note> d’armes dans la maison, aucun ustensile de chasse ou de guerre. Tout y
+                        dénotait<lb/> les habitudes les plus pacifiques. </p>
+                    <p>Après avoir examiné cette demeure en détail, <persName ref="#p0002">Passepartout</persName> se frotta les<lb/> mains, sa large
+                        figure s’épanouit, et il répéta joyeusement : </p>
+                    <p>« Cela me va ! voilà mon affaire ! Nous nous entendrons parfaitement,<persName ref="#p0001"> Mr.<lb/> Fogg</persName> et moi !
+                        Un homme casanier et régulier ! Une véritable mécanique ! Eh<lb/> bien, je ne suis pas fâché de servir une mécanique ! » </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

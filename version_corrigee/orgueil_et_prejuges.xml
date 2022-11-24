@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="odd/out/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Orgueil et préjugé</title>
+                <title type="sub">Par l'auteur de Raison et Sensibilité</title>
+                <title type="sub">Traduit de l'anglois</title>
+                <author>Jane Austen</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>J. J. Paschoud, libraire</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date>1822</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <collection>Réserve des livres rares</collection>
+                        <idno>RES P-Y2-2802</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation when="1813"/>
+            <langUsage>
+                <language ident="fr" usage="75">Français</language>
+                <language ident="en" usage="25">Anglais</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="p0001">
+                        <persName>
+                            <forename>Elisabeth</forename>
+                            <surname>Bennet</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="p0002">
+                        <persName>
+                            <forename>Fitzwilliam</forename>
+                            <surname>Darcy</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="p0003">
+                        <persName>
+                            <forename>Georgiana</forename>
+                            <surname>Darcy</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="p0004">
+                        <persName>Mrs Gardiner</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="l0001" type="house">
+                        <placeName>Pemberley</placeName>
+                        <region>Derbyshire</region>
+                        <country>England</country>
+                    </place>
+                    <place xml:id="l0002" type="city">
+                        <placeName>Lambton</placeName>
+                        <region>Derbyshire</region>
+                        <country>England</country>
+                    </place>
+                    <place xml:id="l0003" type="inn">
+                        <placeName>Une auberge</placeName>
+                        <settlement>Lambton</settlement>
+                        <region>Derbyshire</region>
+                        <country>England</country>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L'encodage de ce document s'est fait dans le cadre d'une formation d'introduction à la TEI.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Aucune correction</p>
+                </correction>
+                <hyphenation eol="hard" rend="sh">
+                    <p>Toutes les coupures de mots pour fin de ligne (indiquées principalement avec un tiret simple) ont été conservées.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when-iso="2021-02-17" who="#floriane.chiffoleau">Added a particDesc and settingDesc in the profileDesc</change>
+            <change when-iso="2021-02-16" who="#floriane.chiffoleau">Encoding of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="book" n="3">
+                <div type="chapter" n="9">
+                    <p>Elisabeth avoit arrangé dans sa tête<lb/> que Mr. Darcy lui amèneroit sa sœur le<lb/> lendemain de son arrivée à Pemberley
+                        ,<lb/> et en conséquence elle étoit bien déci-<lb break="no"/>dée à ne pas s’éloigner de l’auberge de<lb/> toute la matinée;
+                        mais elle avoit mal<lb/> calculé, car il l’amena à Lambton le<lb/> jour même. Elisabeth et sa tante qui<lb/> s’étoient
+                        promenées près de là avec quel-<lb break="no"/>ques-uns de leurs nouveaux amis, ren-<lb break="no"/>troient à l’auberge pour
+                        faire leur toi-<lb break="no"/>lette et aller dîner, lorsque le bruit d’un<lb/> équipage les attira vers la fenêtre, et
+                        elles<lb/> virent un monsieur et une dame dans un<lb/> Carriole qui s’arrêta à leur porte. Elisabeth,<lb/> reconnoissant la
+                        livrée, ne causa pas à son<lb/> oncle et à sa tante une légère surprise,<pb n="113"/><note type="foliation" place="top(right)"
+                            >113</note> en leur annonçant la visite qu’elle atten-<lb break="no"/>doit. Jusqu’alors ils n’avoient eu aucun<lb/>
+                        soupçon de ce qui se passoit ; mais com-<lb break="no"/>ment expliquer l’embarras d’Elisabeth, et<lb/> toutes les attentions
+                        de Darcy? Il falloit<lb/> qu’il eût du penchant pour leur nièce.</p>
+                </div>
+            </div>
+            <div type="named_entities">
+                <!--<div type="generic">
+                    <p><name type="person" ref="#p0001">Elisabeth</name> avoit arrangé dans sa tête que <name type="person" ref="#p0002">Mr.
+                            Darcy</name> lui amèneroit <rs type="person" ref="#p0003">sa sœur</rs> le lendemain de son arrivée à <name type="place"
+                            ref="#l0001">Pemberley</name> , et en conséquence elle étoit bien décidée à ne pas s’éloigner de <rs type="place"
+                            ref="#l0003">l’auberge</rs> de toute la matinée; mais elle avoit mal calculé, car il l’amena à <name type="place"
+                            ref="#l0002">Lambton</name> le jour même. <name type="person" ref="#p0001">Elisabeth</name> et <rs type="person"
+                            ref="#p0004">sa tante</rs> qui s’étoient promenées près de là.</p>
+                </div>-->
+                <div type="specific">
+                    <p><persName ref="#p0001">Elisabeth</persName> avoit arrangé dans sa tête que <persName ref="#p0002">Mr. Darcy</persName> lui
+                        amèneroit <rs type="person" ref="#p0003">sa sœur</rs> le lendemain de son arrivée à <placeName ref="#l0001"
+                            >Pemberley</placeName> , et en conséquence elle étoit bien décidée à ne pas s’éloigner de <rs type="place" ref="#l0003"
+                            >l’auberge</rs> de toute la matinée; mais elle avoit mal calculé, car il l’amena à <placeName ref="#l0002"
+                            >Lambton</placeName> le jour même. <persName ref="#p0001">Elisabeth</persName> et <rs type="person" ref="#p0004">sa
+                            tante</rs> qui s’étoient promenées près de là.</p>
+                </div>
+            </div>
+            <div type="transcription">
+                <div xml:lang="fr">
+                    <p>Elisabeth avoit arrangé dans sa tête<lb/> que Mr. Darcy lui <del rend="erasure">amèneroit</del> sa sœur le<lb/> lendemain de son
+                        arrivée à Pemberley ,<lb/> et en conséquence elle étoit bien déci-<lb break="no"/>dée à ne pas s’éloigner de l’auberge de<lb/>
+                        toute la matinée; mais elle avoit mal<lb/> calculé, car il l’amena à Lambton le<lb/> jour même. Elisabeth et sa tante qui<lb/>
+                        s’étoient promenées près de là avec quel-<lb break="no"/>ques-uns de leurs nouveaux amis, ren-<lb break="no"/>troient à
+                        l’auberge pour faire leur toi-<lb break="no"/>lette et aller dîner, lorsque le bruit d’un<lb/> équipage les attira vers la
+                        fenêtre, et elles<lb/> virent un monsieur et une dame dans un<lb/> Carriole qui s’arrêta à leur porte. Elisabeth,<lb/>
+                        reconnoissant la livrée, ne causa pas à son<lb/> oncle et à sa tante une légère surprise,<pb n="113"/><note type="foliation"
+                            place="top(right)">113</note> en leur annonçant la visite qu’elle atten-<lb break="no"/>doit. Jusqu’alors ils n’avoient eu
+                        aucun<lb/> soupçon de ce qui se passoit ; mais com-<lb break="no"/>ment expliquer l’embarras d’Elisabeth, et<lb/> toutes les
+                        attentions de Darcy? Il falloit<lb/> qu’il eût du penchant pour leur nièce.</p>
+                </div>
+                <div xml:lang="en">
+                    <p> Elizabeth had settled it that Mr. Darcy would bring<lb/> his sister to visit her the very day after her reaching<lb/>
+                        Pemberley; and was consequently resolved not to be out<lb/> of sight of the inn the whole of that morning. But her<lb/>
+                        conclusion was false; for on the very morning after their<lb/> arrival at Lambton, these visitors came. They had<lb/> been
+                        walking about the place with some of their new<lb/> friends, and were just returning to the inn to dress<lb/> themselves for
+                        dining with the same family, when the <pb n="2865"/><note type="foliation" place="top(right)">265</note> sound of a carriage
+                        drew them to a window, and they<lb/> saw a gentleman and a lady in a curricle driving up the<lb/> street. Elizabeth
+                        immediately recognizing the livery,<lb/> guessed what it meant, and imparted no small degree<lb/> of her surprise to her
+                        relations by acquainting them with<lb/> the honour which she expected. Her uncle and aunt were<lb/> all amazement; and the
+                        embarrassment of her manner<lb/> as she spoke, joined to the circumstance itself, and many<lb/> of the circumstances of the
+                        preceding day, opened to<lb/> them a new idea on the business. Nothing had ever<lb/> suggested it before, but they felt that
+                        there was no<lb/> other way of accounting for such attentions from such<lb/> a quarter than by supposing a partiality for
+                        their niece.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
