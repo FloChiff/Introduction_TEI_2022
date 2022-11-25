@@ -1,0 +1,354 @@
+XPath 1
+//listPlace/place[@type="city"]/placeName[1]
+
+350 results
+Ablain
+Aboukir
+Agadir
+Agen
+Aix-la-Chapelle
+Albert
+Alençon
+Alexandria
+Amiens
+Amsterdam
+Andrinople (Edirne)
+Angers
+Antwerp
+Arkhangel
+Armentières
+Arras
+Assé-le-Boisne
+Athens
+Aubigné
+Austin
+Avord
+Avricourt
+Ay
+Babylone
+Bagdad
+Bailleul
+Baltimore
+Bar-le-Duc
+Barr
+Basel
+Bayonne
+Bazouges
+Beaumont
+Bellevue
+Bellème
+Bergen
+Berlin
+Berne
+Bessé(-sur-Braye)
+Bikschote
+Bonnétable
+Bordeaux
+Boston
+Boucelles
+Boulogne-sur-mer
+Bourg-le-Roi
+Bourges
+Brest
+Bricherasio
+Brimont
+Bruges
+Brussels
+Brême
+Brûlon
+Buenos Aires
+Byzance (Istanbul)
+Bétheny
+Béthune
+Calais
+Carency
+Carthage
+Casablanca
+Cazaux
+Chahaignes
+Champfleur
+Chapelle-des-Bois
+Chartres
+Chartres-sur-Loir
+Chaudfontaine
+Chauny
+Chicago
+Château-Thierry
+Château-du-Loir
+Châteaudun
+Châteauroux
+Chérisay
+Cincinnati
+Clermont-Créans (Créans)
+Clermont-Ferrand
+Coblentz
+Colmar
+Cologne
+Compiègne
+Conlie
+Constantinople (Istanbul)
+Contrexéville
+Coucy
+Coulongé
+Courceboeufs
+Cressy
+Crimée
+Cérans-Foulletourte
+Damas
+Dayton (Ohio)
+Deauville
+Delbruck
+Denver
+Dijon
+Dormans
+Douai
+Douillet-le-Joly
+Dunkerque
+Epernay
+Fachoda
+Fercé
+Florence
+Folkestone
+Francfort
+Fresnay
+Fromentine
+Gandelin
+Gdansk
+Genève
+Gesnes
+Glasgow
+Goyet
+Greez-sur-Roc
+Guipavas
+Hambourg
+Hamme
+Hatfield
+Hazebrouck
+Heidelberg
+Héloup
+Ieper
+Ile-Tudy
+Issoudun
+Issy-les-Moulineaux
+Jebsheim
+Juigné
+Jussy
+Juvisy
+Jérusalem
+Kiel
+Kiev
+Krakow
+Kristiania (Oslo)
+Kut-el-Amara
+L'Aubraie
+La Ciotat
+La Clarté
+La Courneuve
+La Ferté-Bernard
+La Flèche
+La Haye
+La Milesse-la-Bazoge
+Landau
+Larmor
+Lassigny
+Lausanne
+Laval
+Le Bourget
+Le Caire
+Le Châtaigne
+Le Creusot
+Le Croisic
+Le Havre
+Le Mans
+Le-Verdon-sur-Mer
+Lens
+Leuven
+Libourne
+Lille
+Lima
+Liège
+London
+Lorient
+Louvigny
+Loué
+Lowell (Massachussets)
+Luché
+Lunéville
+Lyon
+Madrid
+Maidenhead
+Maigné
+Mamers
+Manitoba
+Manouba
+Marolles-les-Braults
+Marollette
+Marseille
+Mayenne
+Mayet
+Mayfair
+Metz
+Meucon
+Mieuxcé
+Milan
+Milwaukee
+Monastir
+Moncé
+Mont-St-Eloi
+Montdidier
+Montmirail
+Montoir-de-Bretagne
+Montoire-sur-le-Loir
+Montreuil-le-Chétif
+Moscow
+Mount Vernon
+Mulhouse
+Munich
+Nancy
+Nantes
+Neufchâtel-en-Saosnois
+Neuville St-Vaast
+Neuville-Saint-Vaast
+New-York
+Newcastle upon Tyne
+Nice
+Nieppe
+Nieuport
+Nogent-le-Rotrou
+Notre Dame de Lorette
+Nouvelle-Orléans
+Noyen
+Noyon
+Nuremberg
+Odessa
+Oisseau
+Orléans
+Ostende
+Ourscamp
+Paimboeuf
+Paris
+Pau
+Penha
+Perros-Guirec
+Philadelphie
+Pittsburgh
+Plessis-Belleville
+Plombières
+Ploujean
+Ploumanach
+Podgora
+Pontvallain
+Portsmouth
+Pré-en-Pail
+Pétrograd
+Quiberon
+Raillon
+Rambouillet
+Reims
+Rennes
+Rijeka
+Rome
+Rotterdam
+Rouen
+Rouessé-Fontaine
+Rouperroux-le-Coquet
+Rueil
+Ruillé
+Sablé
+Saint Calais
+Saint-Aubin-de-Locquenay
+Saint-Christophe-du-Jambet
+Saint-Cyr
+Saint-Etienne
+Saint-Georges-du-Rosay
+Saint-Germain-d'Arcé
+Saint-Germain-de-la-Coudre
+Saint-Hilaire-le-Lierru
+Saint-Jean-des-Echelles
+Saint-Jean-du-Bois
+Saint-Louis
+Saint-Léonard-des-Bois
+Saint-Malo
+Saint-Martin-des-Monts
+Saint-Mihiel
+Saint-Nazaire
+Saint-Omer
+Saint-Oneu-de-Mé
+Saint-Ouen-de-Mimbré
+Saint-Paterne
+Saint-Paul-le-Gaultier
+Saint-Pierre-des-Corps
+Saint-Pierre-des-Nids (Former Poôté)
+Saint-Pierre-des-Ormes
+Saint-Quentin
+Saint-Rigomer-des-Bois
+Saint-Rémy-des-Ponts
+Saint-Rémy-du-Plein
+Saint-Vincent-des-Prés
+San Francisco
+San Martino
+Sarajevo
+Sarrebourg
+Saumur
+Savenay
+Saverne
+Sceaux-sur-Huisnes
+Schlesvig
+Schwanden
+Seattle
+Sebastopol
+Sedan
+Senlis
+Shangaï
+Sigriswil
+Sillé-le-Guillaume
+Soissons
+Souchez
+Spa
+St-Jean-de-Monts
+St-Pétersbourg
+Stockholm
+Strand
+Strasbourg
+Suzoy
+Sydney
+Sète (Formerly Cette)
+Thoune
+Tokyo
+Toul
+Toulon
+Toulouse
+Tours
+Trieste
+Troyes
+Trégastel
+Tuffé
+Tunis
+Turin
+Turnberry
+Udine
+Upton
+Vaas
+Vancouver
+Vannes
+Vaterland
+Vendôme
+Venise
+Verdun
+Versailles
+Vezins
+Vibraye
+Vichy
+Vienne
+Villacoublay
+Villers-Cotteret
+Villersexel
+Vimy
+Vitry-le-François
+Vittel
+Vladivostok
+Washington
+Waterloo
+Zurich
+la Bassée
+Écurie

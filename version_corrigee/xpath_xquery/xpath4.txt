@@ -1,0 +1,18 @@
+XPath 4
+//place[@type="region"]/country[text()="France"]/preceding-sibling::placeName
+
+14 results
+Argonne
+Basse Bretagne
+Beauce
+Bourgogne
+Bretagne
+Ile de France
+La Champagne
+Lower Brittany
+Navarre
+Normandie
+Picardie
+Provence
+Savoie
+Touraine

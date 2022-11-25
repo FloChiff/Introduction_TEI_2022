@@ -1,0 +1,12 @@
+XPath 3
+//place[@type="sea"]/@xml:id
+
+8 results
+l0011
+l0016
+l0301
+l0313
+l0315
+l0316
+l0317
+l0318
